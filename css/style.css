@@ -1,0 +1,52 @@
+body {
+    background-color: lightblue;
+}
+
+.container {
+    width: 80%;
+    text-align: center;
+    margin: 100px auto;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+h1 a {
+    text-decoration: none;
+    color: blue;
+}
+
+.fill {
+    width: 150px;
+    height: 150px;
+    background-image: url('https://source.unsplash.com/random/150x150');
+    position: relative;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.empty {
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    border: 3px dodgerblue solid;
+    background-color: #fff;
+}
+
+.hold {
+    border: 4px solid #ccc;
+}
+
+.hovered {
+    background-color: #f4f4f4;
+    border-style: dashed;
+}
+
+.invisible {
+    display: none;
+}
